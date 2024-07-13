@@ -4,11 +4,13 @@
   width: 80%;
 }
 
-
+.container-cassino{
+ margin-top: 40px; 
+}
 .div-cassino{
   max-width: 1200px;
   margin: auto;
-position: relative;
+  position: relative;
   font-family: Arial, sans-serif;
   color: white;
   display: flex;
