@@ -1,0 +1,224 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0C1635;
+  color: white;
+  height: calc(100vh - 120px);
+}
+
+.advantages {
+  text-align: center;
+  
+}
+
+.bg-vantagens{
+  position: absolute;
+z-index: -1;
+opacity: 0.1;
+}
+
+.advantages h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.advantage-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  background-color: #040F25;
+  border-radius: 10px;
+  padding: 50px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset #FFEE00;
+ 
+}
+
+.card:hover{
+  box-shadow: 0 0 10px 2px #FFEE00;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: outiside   2px 2px 20px #FFEE00;
+
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.background-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('shape.png') no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.advantages{
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.conteiner-vantagens {
+  max-width: 1200px;
+  margin: auto; 
+}
+
+@media (max-width: 1200px) {
+  
+    .card {
+      background-color: #040F25;
+      
+      padding: 30px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    
+  }
+  .advantage-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+  }
+  .card img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1000px) {
+  
+  .card {
+    background-color: #040F25;
+    padding: 20px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.advantage-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 60px;
+}
+.card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.card h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 10px;
+}
+}
+
+@media (max-width: 500px) {
+  .conteiner-vantagens {
+    
+    margin: 40px;
+    margin-top: 0px; 
+    
+  }
+  .advantage-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 40px;
+  }
+  .card {
+    background-color: #040F25;
+    
+    padding: 10px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.card p {
+  font-size: 8px;
+}
+.card img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.card h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 10px;
+}
+}
+@media (max-width: 400px) {
+  .conteiner-vantagens {
+    
+    margin: 40px; 
+  }
+  .advantage-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+  }
+}

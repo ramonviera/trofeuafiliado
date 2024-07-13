@@ -1,0 +1,114 @@
+
+
+.affiliate-section {
+  width: 80%;
+}
+
+
+.div-cassino{
+  max-width: 1200px;
+  margin: auto;
+position: relative;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  opacity: 1;
+}
+.div-cassino p{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.affiliate-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#bg-img{
+position: absolute;
+z-index: -1;
+opacity: 0.1;
+}
+
+.affiliate-cards {
+  display: flex;
+  flex-direction: row;
+ 
+  margin-top: 120px;
+  gap: 30px;
+}
+
+.card2 {
+  background-color: #040F25;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  max-width: 300px;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.card2 h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #FFEE00;
+}
+
+.card2 p {
+  font-size: 16px;
+  text-align: start;
+}
+
+@media (max-width: 1200px) {
+  .affiliate-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+  }
+
+  .div-cassino{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .div-cassino p{
+    font-size: 22px;
+    
+  }
+}
+
+
+@media (max-width: 900px) {
+  .affiliate-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+  }
+  .div-cassino p{
+    font-size: 20px;
+    
+  }
+  .div-cassino{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .card2 h2 {
+    font-size: 16px;
+    margin-bottom: 18px;
+    
+  }
+  
+  .card2 p {
+    font-size: 14px;
+  }
+}
