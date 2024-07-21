@@ -66,6 +66,7 @@ body {
 .container-carrossel{
   margin-top: 150px;
   margin-bottom: 100px;
+  margin-inline: 20px;
 }
 
 }
